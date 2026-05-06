@@ -9,7 +9,7 @@ if (!empty($audio_url) && !str_contains($audio_url, 'supabase.co')) {
 
 $share_url = 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
 $whatsapp_text = urlencode("Olha a música personalizada que eu criei! 🎵 " . $share_url);
-$checkout_url = "https://pagamento.digitalagencia.store/?utm_source=player&utm_medium=recompra&utm_campaign=player-musica";
+$checkout_url = "https://digitalagencia.store/criesuamusica?utm_source=player&utm_medium=recompra&utm_campaign=player-musica";
 ?>
 <!DOCTYPE html>
 <html lang="pt-BR">
